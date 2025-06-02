@@ -4,9 +4,10 @@
 
 - 🧭 **Gestão de Projetos** com foco em metodologias ágeis como SCRUM
 - 👁️‍🗨️ **Visão Computacional**  
-- 🤖 **Inteligência Artificial**  
-- 🔐 **Cybersecurity** com foco educacional para novos profissionais
+- 🤖 **Inteligência Artificial**
+- 📂 **Git e Github**
 - ⚙️ **Desenvolvimento em C para Sistemas Embarcados**   
+- 🔐 **Cybersecurity** com foco educacional para novos profissionais
 - 🌐 **Redes e Infraestrutura**  
 - 🐧 **Linux**  
 
@@ -35,6 +36,7 @@ Atualmente, estou aprofundando meus conhecimentos em **Ciência de Dados**, com 
 - 📁 [Projetos de Gestão Ágil](./agile-projects)
 - 🛡️ [Conteúdos Didáticos em Cybersecurity](./cybersecurity)
 - 👁️‍🗨️ [Visão Computacional e Intelgência Artificial](./visao-computacional-e-ia)
+- ⚙️ [Detecção de parafusos com Arduino](./projeto-embarcado-arduino)
 - 📊 [Projetos de Análise de Dados](./data-science)
 - 🎓 [Certificações e Cursos](./certificados)
 
