@@ -1,16 +1,42 @@
-### Hi there 👋
+# 💼 Portfólio Profissional
 
-<!--
-**danielsantos-ti/danielsantos-ti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+👋 Olá! Eu sou Daniel, profissional com experiência em:
 
-Here are some ideas to get you started:
+- 🧭 **Gestão de Projetos** com foco em metodologias ágeis como SCRUM
+- 👁️‍🗨️ **Visão Computacional**  
+- 🤖 **Inteligência Artificial**  
+- 🔐 **Cybersecurity** com foco educacional para novos profissionais
+- ⚙️ **Desenvolvimento em C para Sistemas Embarcados**   
+- 🌐 **Redes e Infraestrutura**  
+- 🐧 **Linux**  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Este portfólio reúne alguns dos projetos, conteúdos e iniciativas que desenvolvi ao longo da minha jornada. Fique à vontade para explorar!
+
+---
+
+## 📚 Estudos em Progresso: Ciência e Análise de Dados
+
+Atualmente, estou aprofundando meus conhecimentos em **Ciência de Dados**, com foco em aplicações voltadas à segurança da informação, tomada de decisão estratégica, **Visão Computacional** e **Inteligência Artificial**.
+
+
+**Ferramentas e tecnologias que estou estudando:**
+
+- 🐍 **Python** para análise e automação  
+- 📊 **Pandas** e **NumPy** para manipulação e análise de dados  
+- 📈 **Matplotlib** e **Seaborn** para visualização gráfica  
+- 🧮 **Estatística aplicada**  
+- 📓 **Jupyter Notebooks** para prototipagem de análises  
+- 🧠 Introdução a **Machine Learning** com Scikit-learn
+
+---
+
+## 📌 Seções
+
+- 📁 [Projetos de Gestão Ágil](./agile-projects)
+- 🛡️ [Conteúdos Didáticos em Cybersecurity](./cybersecurity)
+- 📊 [Projetos de Análise de Dados](./data-science)
+- 🎓 [Certificações e Cursos](./certificados)
+
+---
+
+📫 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/daniel-santos-it/)
