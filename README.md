@@ -35,7 +35,7 @@ Atualmente, estou aprofundando meus conhecimentos em **Ciência de Dados**, com 
 
 - 📁 [Projetos de Gestão Ágil](./agile-projects)
 - 🛡️ [Conteúdos Didáticos em Cybersecurity](./cybersecurity)
-- 👁️‍🗨️ [Visão Computacional e Intelgência Artificial](./visao-computacional-e-ia)
+- 👁️‍🗨️ [Visão Computacional e Inteligência Artificial](./visao-computacional-e-ia)
 - ⚙️ [Detecção de parafusos com Arduino](./projeto-embarcado-arduino)
 - 📊 [Projetos de Análise de Dados](./data-science)
 - 🎓 [Certificações e Cursos](./certificados)
