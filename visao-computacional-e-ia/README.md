@@ -2,6 +2,8 @@
 
 Neste vídeo curto, apresento um algoritmo simples em Python que utiliza visão computacional para identificar e decodificar QR Codes em imagens ou vídeos ao vivo. A solução é útil para aplicações em automação industrial, controle de acesso, inspeção de objetos e sistemas embarcados.
 
+## 🛠️ Tecnologias e Componentes
+
 - Linguagem: Python
 - IDE: VSCode  
 - Biblioteca usada: OpenCV (Open Source Computer Vision Library)  
