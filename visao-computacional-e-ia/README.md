@@ -10,3 +10,4 @@ Neste vídeo curto, apresento um algoritmo simples em Python que utiliza visão 
 Assista ao vídeo para entender a lógica do código e ver a aplicação prática dessa tecnologia!
 
 🔗 [Link do vídeo no YouTube](https://youtu.be/0rNO10oUcGg)
+🔗 [Veja o código no Github](https://github.com/danielsantos-ti/LeitorQRCode)
