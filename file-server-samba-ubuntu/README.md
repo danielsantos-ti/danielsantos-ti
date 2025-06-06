@@ -48,3 +48,7 @@ Este projeto implementa um servidor de arquivos utilizando **Samba** em um ambie
 ## 📌 Status
 
 ✅ Projeto finalizado e funcional em ambiente real
+
+---
+
+📫 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/daniel-santos-it/)
