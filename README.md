@@ -38,8 +38,8 @@ Atualmente, estou aprofundando meus conhecimentos em **Ciência de Dados**, com 
 - 👁️‍🗨️ [Visão Computacional e Inteligência Artificial](./visao-computacional-e-ia)
 - ⚙️ [Projeto Detecção de parafusos com Arduino](./projeto-embarcado-arduino)
 - 📊 [Projetos de Engenharia e Ciência de Dados](./data-science)
+- 🐧 [File Server SAMBA Linux](./fileserver-samba-ubuntu)
 - 🎓 [Certificações e Cursos](./certificados)
-
 ---
 
 📫 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/daniel-santos-it/)
