@@ -29,9 +29,8 @@ Aplicar metodologias ágeis para organizar e otimizar o fluxo de trabalho de uma
 
 - 📄 Documentação do fluxo de trabalho e definição dos papéis  
 - 🖼️ Capturas de tela do quadro no Trello e exemplo de automações  
-- 🎥 [Vídeo explicativo sobre a estrutura de trabalho (se disponível)](https://youtube.com/seu-link)
-- 🔗 [Repositório ou recursos adicionais (se aplicável)](https://github.com/seu-usuario/repositorio-projeto)
+- 🎥 [Vídeo demonstartivo sobre a estrutura de trabalho](https://youtu.be/9Ir6vfI43cA)
 
 ---
 
-## 📎 Outros Projetos em Andamento
+📫 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/daniel-santos-it/)
