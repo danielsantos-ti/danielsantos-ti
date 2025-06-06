@@ -24,6 +24,7 @@ Este projeto implementa um servidor de arquivos utilizando **Samba** em um ambie
 /srv/
 ├── Producao/
 ├── Tecnica/
+```
 
 ## 👥 Grupos de usuários
 
@@ -44,6 +45,6 @@ Este projeto implementa um servidor de arquivos utilizando **Samba** em um ambie
 - Integração entre usuários Linux e Samba
 - Diagnóstico de rede com testparm, smbclient e netstat
 
-##📌 Status
+## 📌 Status
 
 ✅ Projeto finalizado e funcional em ambiente real
