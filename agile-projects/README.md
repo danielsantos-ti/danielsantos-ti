@@ -27,9 +27,7 @@ Aplicar metodologias ágeis para organizar e otimizar o fluxo de trabalho de uma
 
 ### 📂 Materiais
 
-- 📄 Documentação do fluxo de trabalho e definição dos papéis  
-- 🖼️ Capturas de tela do quadro no Trello e exemplo de automações  
-- 🎥 [Vídeo demonstartivo sobre a estrutura de trabalho](https://youtu.be/9Ir6vfI43cA)
+- 🎥 [Vídeo demonstrativo sobre a estrutura de trabalho](https://youtu.be/9Ir6vfI43cA)
 
 ---
 
