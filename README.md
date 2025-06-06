@@ -37,7 +37,7 @@ Atualmente, estou aprofundando meus conhecimentos em **Ciência de Dados**, com 
 - 🛡️ [Conteúdos Didáticos em Cybersecurity](./cybersecurity)
 - 👁️‍🗨️ [Visão Computacional e Inteligência Artificial](./visao-computacional-e-ia)
 - ⚙️ [Projeto Detecção de parafusos com Arduino](./projeto-embarcado-arduino)
-- 🐧 [File Server SAMBA Linux](./fileserver-samba-ubuntu)
+- 🐧 [File Server SAMBA Linux](./file-server-samba-ubuntu)
 - 📊 [Projetos de Engenharia e Ciência de Dados](./data-science)
 - 🎓 [Certificações e Cursos](./certificados)
 ---
