@@ -3,13 +3,13 @@
 👋 Olá! Eu sou Daniel, profissional com experiência em:
 
 - 🧭 **Gestão de Projetos** com foco em metodologias ágeis como SCRUM
-- 👁️‍🗨️ **Visão Computacional**  
-- 🤖 **Inteligência Artificial**
+- 🐧 **Linux**  
 - 📂 **Git e Github**
 - ⚙️ **Desenvolvimento em C para Sistemas Embarcados**   
 - 🔐 **Cybersecurity** com foco educacional para novos profissionais
-- 🌐 **Redes e Infraestrutura**  
-- 🐧 **Linux**  
+- 🌐 **Redes e Infraestrutura**
+- 👁️‍🗨️ **Visão Computacional**  
+- 🤖 **Inteligência Artificial**
 
 Este portfólio reúne alguns dos projetos, conteúdos e iniciativas que desenvolvi ao longo da minha jornada. Fique à vontade para explorar!
 
