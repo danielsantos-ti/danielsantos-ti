@@ -2,12 +2,12 @@
 
 👋 Olá! Eu sou Daniel, profissional com experiência em:
 
-- 🧭 **Gestão de Projetos** com foco em metodologias ágeis como SCRUM
+- 🧭 **Gestão de Projetos** com foco em metodologias ágeis como SCRUM  
 - 🐧 **Linux**  
-- 📂 **Git e Github**
-- ⚙️ **Desenvolvimento em C para Sistemas Embarcados**   
-- 🔐 **Cybersecurity** com foco educacional para novos profissionais
-- 🌐 **Redes e Infraestrutura**
+- 📂 **Git e Github**  
+- ⚙️ **Desenvolvimento em C para Sistemas Embarcados**  
+- 🔐 **Cybersecurity** com foco educacional para novos profissionais  
+- 🌐 **Redes e Infraestrutura**  
 - 👁️‍🗨️ **Visão Computacional**  
 - 🤖 **Inteligência Artificial**
 
@@ -15,31 +15,31 @@ Este portfólio reúne alguns dos projetos, conteúdos e iniciativas que desenvo
 
 ---
 
-## 📚 Estudos em Progresso: Ciência e Análise de Dados
+## 🧠 Estudos em Progresso: Inteligência Artificial e Aprendizado de Máquina
 
-Atualmente, estou aprofundando meus conhecimentos em **Ciência de Dados**, com foco em aplicações voltadas à segurança da informação, tomada de decisão estratégica, **Visão Computacional** e **Inteligência Artificial**.
+Atualmente, estou aprofundando meus conhecimentos em **IA aplicada à indústria**, com foco em inspeção automatizada de objetos, infraestrutura de alto desempenho e capacitação técnica.
 
+**Tecnologias e ferramentas em estudo:**
 
-**Ferramentas e tecnologias que estou estudando:**
-
-- 🐍 **Python** para análise e automação  
-- 📊 **Pandas** e **NumPy** para manipulação e análise de dados  
-- 📈 **Matplotlib** e **Seaborn** para visualização gráfica  
-- 🧮 **Estatística aplicada**  
-- 📓 **Jupyter Notebooks** para prototipagem de análises  
-- 🧠 Introdução a **Machine Learning** com Scikit-learn
+- 🧠 **YOLOv8** para detecção e inspeção de objetos em linhas de produção  
+- 🧪 **OpenCV** para análise de posição, orientação e qualidade de peças  
+- 🖥️ **Infraestrutura para IA** com servidores e estações de trabalho com **GPUs NVIDIA**  
+- 🔄 **Pipelines de inspeção industrial** com comunicação bidirecional entre IA e sistemas produtivos  
+- 📡 **Integração com sistemas embarcados e IoT** para automação e conectividade industrial  
+- 📊 **Monitoramento e análise de desempenho** de modelos em produção  
+- 🎓 **Capacitação de equipes** em IA, visão computacional e metodologias ágeis
 
 ---
 
 ## 📌 Projetos
 
-- 📁 [Projetos de Gestão Ágil](./agile-projects)
-- 🛡️ [Conteúdos Didáticos em Cybersecurity](./cybersecurity)
-- 👁️‍🗨️ [Visão Computacional e Inteligência Artificial](./visao-computacional-e-ia)
-- ⚙️ [Projeto Detecção de parafusos com Arduino](./projeto-embarcado-arduino)
+- 📁 [Projetos de Gestão Ágil](./agile-projects)  
+- 🛡️ [Conteúdos Didáticos em Cybersecurity](./cybersecurity)  
+- 👁️‍🗨️ [Visão Computacional e Inteligência Artificial](./visao-computacional-e-ia)  
+- ⚙️ [Projeto Detecção de Parafusos com Arduino](./projeto-embarcado-arduino)  
 - 🐧 [File Server SAMBA Linux](./file-server-samba-ubuntu)
-- 📊 [Projetos de Engenharia e Ciência de Dados - Em construção](./data-science)
 - 🎓 [Certificações e Cursos](./certificados)
+
 ---
 
 📫 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/daniel-santos-it/)
