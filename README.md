@@ -38,7 +38,7 @@ Atualmente, estou aprofundando meus conhecimentos em **IA aplicada à indústria
 - 👁️‍🗨️ [Visão Computacional e Inteligência Artificial](./visao-computacional-e-ia)  
 - ⚙️ [Projeto Detecção de Parafusos com Arduino](./projeto-embarcado-arduino)  
 - 🐧 [File Server SAMBA Linux](./file-server-samba-ubuntu)
-- 🎓 [Certificações e Cursos](./certificados)
+- 📊 [Monitoramento e Diagnóstico em Servidores Linux](./monitoramento)
 
 ---
 
