@@ -134,6 +134,7 @@ Atualmente, estou aprofundando meus conhecimentos em **IA aplicada à indústria
 
 - 📁 [Projetos de Gestão Ágil](./agile-projects)  
 - 🛡️ [Conteúdos Didáticos em Cybersecurity](./cybersecurity)  
+- 🎓 [Servidores Linux na Prática – Projeto Educacional de Infraestrutura](https://github.com/danielsantos-ti/servidores-linux-na-pratica)
 - 👁️‍🗨️ [Visão Computacional e Inteligência Artificial](./visao-computacional-e-ia)  
 - ⚙️ [Sistema de teste de presença de parafusos em peças automotivas](./projeto-embarcado-arduino)  
 - 🐧 [File Server SAMBA Linux](./file-server-samba-ubuntu)  
