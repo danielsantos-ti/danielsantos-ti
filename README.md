@@ -135,7 +135,7 @@ Atualmente, estou aprofundando meus conhecimentos em **IA aplicada à indústria
 - 📁 [Projetos de Gestão Ágil](./agile-projects)  
 - 🛡️ [Conteúdos Didáticos em Cybersecurity](./cybersecurity)  
 - 👁️‍🗨️ [Visão Computacional e Inteligência Artificial](./visao-computacional-e-ia)  
-- ⚙️ [Sistema de Controle de Acesso PGT 120](./projeto-embarcado-arduino)  
+- ⚙️ [Sistema de teste de presença de parafusos em peças automotivas](./projeto-embarcado-arduino)  
 - 🐧 [File Server SAMBA Linux](./file-server-samba-ubuntu)  
 - 📊 [Monitoramento e Diagnóstico em Servidores Linux](./monitoramento)  
 - 📈 *(Em breve)* Projetos de Engenharia de Dados  
