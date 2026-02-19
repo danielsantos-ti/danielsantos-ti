@@ -1,21 +1,22 @@
 # 💼 Daniel Santos  
-## 🚀 Tech Lead | Infraestrutura, Sistemas Embarcados, IA Aplicada e Engenharia de Dados
+## 🚀 Tech Lead | Infraestrutura Linux | Edge Computing | IA Aplicada & Engenharia de Dados
 
-Profissional de tecnologia com foco na arquitetura e integração de soluções que combinam infraestrutura Linux, Sistemas Embarcados, Inteligência Artificial aplicada à indústria e Engenharia de Dados.
+Profissional de tecnologia com atuação na arquitetura e integração de soluções que conectam **infraestrutura Linux, sistemas embarcados, inteligência artificial aplicada à indústria e engenharia de dados**.
 
-Atuo projetando pipelines técnicos completos, da infraestrutura ao modelo de IA, conectando sistemas produtivos, dispositivos embarcados e ambientes de alto desempenho.
+Projeto pipelines técnicos completos, da infraestrutura ao processamento e análise de dados, integrando ambientes produtivos, dispositivos físicos e sistemas de alto desempenho.
 
-Atualmente em formação em **Engenharia de Dados**, ampliando minha atuação para arquitetura de dados, pipelines escaláveis e ambientes orientados a analytics.
+Atualmente em formação em **Engenharia de Dados**, expandindo minha atuação para arquitetura de dados, pipelines escaláveis e ambientes orientados a analytics e rastreabilidade operacional.
 
 Tenho experiência em:
 
-- 🧭 Liderança técnica com metodologias ágeis (Scrum)  
-- 🐧 Arquitetura de infraestrutura Linux  
-- ⚙️ Desenvolvimento de Software Embarcado  
-- 👁️‍🗨️ Visão computacional  
-- 🤖 IA aplicada à inspeção e automação industrial  
+- 🧭 Liderança técnica com metodologias ágeis (Scrum e Kanban)  
+- 🐧 Arquitetura e administração de infraestrutura Linux  
+- ⚙️ Desenvolvimento e integração de sistemas embarcados (ESP32, APIs e dispositivos industriais)  
+- 👁️‍🗨️ Visão computacional aplicada à inspeção industrial  
+- 🤖 Inteligência Artificial aplicada à automação e tomada de decisão  
+- 📊 Análise de dados em ambiente produtivo com SQL (PostgreSQL)  
 - 🔐 Segurança aplicada a ambientes técnicos  
-- 🎓 Produção de conteúdo técnico e capacitação profissional  
+- 🎓 Capacitação técnica e estruturação de trilhas práticas de aprendizado  
 
 Meu foco é transformar desafios operacionais complexos em soluções tecnológicas escaláveis, eficientes e sustentáveis.
 
@@ -27,10 +28,10 @@ Atuo na interseção entre infraestrutura, edge computing, engenharia de dados e
 
 - Reduzem falhas operacionais  
 - Automatizam processos críticos  
-- Integram dispositivos físicos a sistemas embarcados  
+- Integram dispositivos físicos a sistemas digitais  
 - Estruturam dados para análise estratégica  
-- Garantem segurança e rastreabilidade  
-- Escalam de forma sustentável  
+- Garantem segurança, rastreabilidade e confiabilidade  
+- Escalam de forma sustentável em ambientes industriais  
 
 ---
 
@@ -40,20 +41,30 @@ Atuo na interseção entre infraestrutura, edge computing, engenharia de dados e
 
 - Liderança técnica no desenvolvimento de produto embarcado integrando dispositivos industriais via firmware e API.
 - Integração entre dispositivos físicos e sistemas corporativos, garantindo rastreabilidade e confiabilidade operacional.
+- Comunicação entre micro-controladores, equipamentos de reconhecimento facial, sistemas de controle de acesso e teste ESD.
 
 ### 👁️‍🗨️ Inteligência Artificial e Visão Computacional
 
-- Implantação de pipeline de visão computacional utilizando YOLOv8 e OpenCV, integrado ao processo produtivo.
+- Implantação de pipeline de visão computacional utilizando YOLOv8 e OpenCV integrado ao processo produtivo.
 - Implementação de fluxo bidirecional entre sistema de IA e operação industrial para suporte à decisão baseada em dados.
+- Estruturação de ambiente para execução e monitoramento de modelos em produção.
 
-### 🖥️ Infraestrutura para IA
+### 🖥️ Infraestrutura para IA e Sistemas Críticos
 
 - Planejamento e implantação de infraestrutura dedicada para IA (servidores, redes e GPUs) suportando ambientes de alto desempenho.
-- Estruturação de ambientes seguros e escaláveis para execução e monitoramento de modelos em produção.
+- Estruturação de ambientes Linux seguros e escaláveis para execução contínua de serviços críticos.
+- Monitoramento e manutenção preventiva para garantir disponibilidade operacional.
+
+### 📊 Análise de Dados em Produção
+
+- Execução de consultas SQL em PostgreSQL em ambiente produtivo de sistemas industriais.
+- Aplicação prática de cláusulas como `WHERE`, `IN`, `BETWEEN`, `GROUP BY`, `ORDER BY` e funções de agregação `COUNT()`.
+- Análise de registros operacionais para rastreabilidade, verificação de inconsistências e suporte à tomada de decisão.
+- Organização e estruturação de dados para facilitar auditoria e análise estratégica.
 
 ### 👥 Liderança e Transformação
 
-- Coordenação de equipes multidisciplinares (software, eletrônica e TI) aplicando Scrum e Kanban.
+- Coordenação de equipes multidisciplinares (software, eletrônica e TI).
 - Atuação junto à alta gestão na definição de requisitos estratégicos e integrações com ERP.
 - Treinamento de equipes operacionais para adoção de sistemas inteligentes e transformação digital.
 
@@ -61,19 +72,19 @@ Atuo na interseção entre infraestrutura, edge computing, engenharia de dados e
 
 ## 🏗️ Abordagem Técnica
 
-Minha atuação técnica segue quatro pilares:
+Minha atuação técnica é estruturada em quatro pilares:
 
 ### 1️⃣ Infraestrutura  
-Projetar ambientes Linux escaláveis, seguros e preparados para alto desempenho.
+Projetar ambientes Linux escaláveis, seguros e preparados para alto desempenho em produção.
 
 ### 2️⃣ Integração  
-Conectar pipelines de visão computacional e ambientes industriais, garantindo fluxo de dados confiável e comunicação entre sistemas.
+Conectar pipelines de visão computacional, dispositivos embarcados e sistemas industriais, garantindo fluxo de dados confiável.
 
-### 3️⃣ Inteligência Aplicada  
-Implementar modelos de IA com foco em eficiência operacional e integração produtiva.
+### 3️⃣ Dados  
+Estruturar e analisar dados operacionais em ambiente de produção, utilizando SQL e boas práticas para suporte à decisão e rastreabilidade.
 
-### 4️⃣ Edge e Integração Física  
-Desenvolver soluções embarcadas com ESP32 e integração via API para conectar dispositivos físicos (controle de acesso, catracas, sensores e atuadores) a sistemas digitais, garantindo segurança, rastreabilidade e confiabilidade operacional.
+### 4️⃣ Inteligência Aplicada  
+Implementar modelos de IA com foco em eficiência operacional, integração produtiva e melhoria contínua.
 
 ---
 
@@ -88,6 +99,8 @@ Aprofundando conhecimentos em:
 - Orquestração de pipelines  
 - Monitoramento e governança de dados  
 
+Já aplico SQL em ambiente de produção que auxiliam na tomada de decisão em arquitetura orientada a análise.
+
 Em breve, projetos práticos de Engenharia de Dados estarão disponíveis neste portfólio.
 
 ---
@@ -98,9 +111,9 @@ Além da atuação técnica, desenvolvo iniciativas de capacitação com foco em
 
 ### 🚀 Servidores Linux na Prática
 
-Projeto educacional publicado no YouTube que simula a construção de uma infraestrutura real utilizando virtualização.
+Projeto educacional que simula a construção de uma infraestrutura real utilizando virtualização e práticas de mercado.
 
-O curso aborda:
+O projeto aborda:
 
 - Instalação e configuração de Ubuntu Server  
 - Estruturação de ambiente virtualizado  
@@ -110,23 +123,22 @@ O curso aborda:
 - Backup e recuperação de desastre  
 - Documentação técnica e organização de tarefas  
 
-A iniciativa reforça minha atuação como Tech Lead ao estruturar trilhas práticas de aprendizado, incentivar documentação profissional e promover aplicação real do conhecimento.
+A iniciativa reforça minha atuação como Tech Lead ao estruturar trilhas práticas de aprendizado e promover aplicação real do conhecimento.
 
 ---
 
-## 🧠 Estudos em Progresso: Inteligência Artificial e Aprendizado de Máquina
+## 🧠 Estudos em Progresso: Inteligência Artificial
 
-Atualmente, estou aprofundando meus conhecimentos em **IA aplicada à indústria**, com foco em inspeção automatizada de objetos, infraestrutura de alto desempenho e capacitação técnica.
+Aprofundando conhecimentos em **IA aplicada à indústria**, com foco em inspeção automatizada, infraestrutura de alto desempenho e integração com sistemas produtivos.
 
-**Tecnologias e ferramentas em estudo:**
+**Tecnologias e frentes de estudo:**
 
-- 🧠 YOLOv8 para detecção e inspeção de objetos em linhas de produção  
-- 🧪 OpenCV para análise de posição, orientação e qualidade de peças  
-- 🖥️ Infraestrutura para IA com servidores e estações de trabalho com GPUs NVIDIA  
-- 🔄 Pipelines de inspeção industrial com comunicação bidirecional entre IA e sistemas produtivos  
-- 📡 Integração com IoT e dispositivos embarcados  
-- 📊 Monitoramento e análise de desempenho de modelos em produção  
-- 🎓 Capacitação de equipes em IA, visão computacional e metodologias ágeis  
+- YOLOv8 para detecção e inspeção de objetos  
+- OpenCV para análise de posição, orientação e qualidade  
+- Infraestrutura com GPUs NVIDIA para processamento de modelos  
+- Pipelines industriais com comunicação bidirecional  
+- Integração com IoT e dispositivos embarcados  
+- Monitoramento e análise de desempenho de modelos  
 
 ---
 
@@ -134,7 +146,7 @@ Atualmente, estou aprofundando meus conhecimentos em **IA aplicada à indústria
 
 - 📁 [Projetos de Gestão Ágil](./agile-projects)  
 - 🛡️ [Conteúdos Didáticos em Cybersecurity](./cybersecurity)  
-- 🎓 [Servidores Linux na Prática – Projeto Educacional de Infraestrutura](https://github.com/danielsantos-ti/servidores-linux-na-pratica)
+- 🎓 [Servidores Linux na Prática – Projeto Educacional de Infraestrutura](https://github.com/danielsantos-ti/servidores-linux-na-pratica)  
 - 👁️‍🗨️ [Visão Computacional e Inteligência Artificial](./visao-computacional-e-ia)  
 - ⚙️ [Sistema de teste de presença de parafusos em peças automotivas](./projeto-embarcado-arduino)  
 - 🐧 [File Server SAMBA Linux](./file-server-samba-ubuntu)  
