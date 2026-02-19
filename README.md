@@ -148,7 +148,7 @@ Aprofundando conhecimentos em **IA aplicada à indústria**, com foco em inspeç
 - 🛡️ [Conteúdos Didáticos em Cybersecurity](./cybersecurity)  
 - 🎓 [Servidores Linux na Prática – Projeto Educacional de Infraestrutura](https://github.com/danielsantos-ti/servidores-linux-na-pratica)  
 - 👁️‍🗨️ [Visão Computacional e Inteligência Artificial](./visao-computacional-e-ia)  
-- ⚙️ [Sistema de teste de presença de parafusos em peças automotivas](./projeto-embarcado-arduino)
+- ⚙️ [Sistema de teste de presença de parafusos em peças automotivas com Arduino](./projeto-embarcado-arduino)
 - ⚙️ [Sistema de Controle de Acesso com ESP32](./controle-acesso-esp32)
 - 🐧 [File Server SAMBA Linux](./file-server-samba-ubuntu)  
 - 📊 [Monitoramento e Diagnóstico em Servidores Linux](./monitoramento)  
