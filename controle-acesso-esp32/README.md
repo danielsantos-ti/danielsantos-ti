@@ -1,44 +1,62 @@
+# ⚙️ Sistema de Controle de Acesso com ESP32
 
-# 📟 Projeto Embarcado com Arduino
+## 📌 Sobre o Projeto
 
-## 📌 Sobre
-Projeto desenvolvido com Arduino para leitura de sensores, processamento local de dados e execução de ações condicionais.
+Edge controller embarcado desenvolvido com ESP32 para integração entre dispositivo de reconhecimento facial e hardware de controle físico, utilizando comunicação via API REST.
 
-Foco em aplicação prática de sistemas embarcados, integração hardware + software e organização de firmware.
-
----
-
-## ⚙️ Tecnologias
-- Arduino (C/C++)
-- PlatformIO  
-- Comunicação Serial  
-- Git  
+O sistema realiza validação de acesso, controle de sessão e acionamento inteligente de relés com base em eventos autorizados.
 
 ---
 
-## 🧠 Funcionalidades
-- Leitura de sensores  
-- Processamento de dados  
-- Controle baseado em condições  
-- Logs via Serial Monitor  
+## 🎯 Objetivo
+
+Permitir a integração entre um sistema de reconhecimento facial e dispositivos físicos de controle de acesso (como fechaduras ou catracas), garantindo:
+
+- Consulta otimizada de eventos
+- Controle de sessão ativo
+- Acionamento seguro de relés
+- Processamento local (edge computing)
 
 ---
 
-## 🗂️ Estrutura
-/src  
-&nbsp;&nbsp;main.cpp  
-/include  
-/lib  
+## 🧠 Arquitetura
+
+Dispositivo Facial → API REST → ESP32 → Controle de Relé → Dispositivo Físico
+
+O ESP32 atua como controlador intermediário, reduzindo latência e garantindo autonomia operacional mesmo em cenários de instabilidade de rede.
 
 ---
 
-## 🚀 Execução
-1. Abrir no PlatformIO  
-2. Conectar o Arduino  
-3. Compilar e enviar o firmware  
-4. Monitorar via Serial Monitor  
+## ⚙️ Tecnologias Utilizadas
+
+- ESP32
+- C++ (Arduino Framework)
+- Comunicação HTTP (API REST)
+- Controle GPIO
+- PlatformIO
+- Git
+
+---
+
+## 🧩 Funcionalidades Implementadas
+
+- Consumo de API REST para consulta de eventos
+- Validação de sessão ativa
+- Controle inteligente de relé
+- Tratamento básico de falhas de comunicação
+- Processamento embarcado com lógica condicional
+
+---
+
+## 🚀 Próximos Passos
+
+- Implementação de cache local de eventos
+- Registro de logs persistentes
+- Monitoramento remoto
+- Integração com sistema de auditoria
 
 ---
 
 Daniel Santos  
-Tecnologia | Sistemas Embarcados | Infraestrutura  
+Tecnologia | Sistemas Embarcados | Integração de Sistemas
+
