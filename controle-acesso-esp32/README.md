@@ -1,62 +1,90 @@
-# ⚙️ Sistema de Controle de Acesso com ESP32
+# ⚙️ Sistema de Controle de Acesso com ESP32 (Versão Demonstrativa)
 
 ## 📌 Sobre o Projeto
 
-Edge controller embarcado desenvolvido com ESP32 para integração entre dispositivo de reconhecimento facial e hardware de controle físico, utilizando comunicação via API REST.
+Esta é uma **versão pública demonstrativa** de um edge controller embarcado desenvolvido com ESP32 para integração entre sistemas de reconhecimento facial e hardware de controle físico.
 
-O sistema realiza validação de acesso, controle de sessão e acionamento inteligente de relés com base em eventos autorizados.
+⚠️ Esta implementação não contém:
+- Endpoints reais
+- Credenciais
+- Endereços de infraestrutura
+- Lógica sensível de produção
 
----
-
-## 🎯 Objetivo
-
-Permitir a integração entre um sistema de reconhecimento facial e dispositivos físicos de controle de acesso (como fechaduras ou catracas), garantindo:
-
-- Consulta otimizada de eventos
-- Controle de sessão ativo
-- Acionamento seguro de relés
-- Processamento local (edge computing)
+A versão completa utilizada em ambiente real permanece privada.
 
 ---
 
-## 🧠 Arquitetura
+## 🎯 Objetivo da Versão Pública
 
-Dispositivo Facial → API REST → ESP32 → Controle de Relé → Dispositivo Físico
+Demonstrar:
 
-O ESP32 atua como controlador intermediário, reduzindo latência e garantindo autonomia operacional mesmo em cenários de instabilidade de rede.
+- Estrutura arquitetural do firmware
+- Organização de código embarcado
+- Integração via API REST
+- Controle inteligente de relés
+- Lógica de sessão e validação de eventos
+
+Sem expor dados sensíveis ou infraestrutura operacional.
+
+---
+
+## 🧠 Arquitetura Conceitual
+
+Dispositivo de Reconhecimento → API REST (Mock) → ESP32 → Relé → Dispositivo Físico
+
+O ESP32 atua como controlador intermediário, realizando processamento local (edge computing) para:
+
+- Redução de latência
+- Autonomia operacional
+- Controle condicional embarcado
 
 ---
 
 ## ⚙️ Tecnologias Utilizadas
 
-- ESP32
-- C++ (Arduino Framework)
-- Comunicação HTTP (API REST)
-- Controle GPIO
-- PlatformIO
-- Git
+- ESP32  
+- C++ (Arduino Framework)  
+- Comunicação HTTP  
+- Controle GPIO  
+- PlatformIO  
+- Git  
 
 ---
 
-## 🧩 Funcionalidades Implementadas
+## 🧩 Funcionalidades Demonstradas
 
-- Consumo de API REST para consulta de eventos
-- Validação de sessão ativa
-- Controle inteligente de relé
-- Tratamento básico de falhas de comunicação
-- Processamento embarcado com lógica condicional
+- Consumo de endpoint simulado (mock API)
+- Validação de evento de acesso
+- Controle condicional de relé
+- Estrutura modular de firmware
+- Tratamento básico de falhas
 
 ---
 
-## 🚀 Próximos Passos
+## 🔐 Boas Práticas Aplicadas
 
-- Implementação de cache local de eventos
-- Registro de logs persistentes
-- Monitoramento remoto
-- Integração com sistema de auditoria
+- Separação de responsabilidades
+- Isolamento de configuração sensível
+- Estrutura preparada para variáveis de ambiente
+- Versionamento controlado
+
+---
+
+## 🚀 Possíveis Evoluções
+
+- Cache local de eventos
+- Logs persistentes
+- Sistema de fallback offline
+- Telemetria e monitoramento remoto
+
+---
+
+## 📎 Observação Importante
+
+Este repositório tem finalidade exclusivamente demonstrativa e educacional.  
+Qualquer semelhança com ambientes reais refere-se apenas à modelagem arquitetural.
 
 ---
 
 Daniel Santos  
 Tecnologia | Sistemas Embarcados | Integração de Sistemas
-
