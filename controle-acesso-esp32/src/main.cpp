@@ -1,11 +1,36 @@
 /*
-Project: Edge Access Controller (Demo Version)
-Description:
-ESP32 firmware demonstrating integration with a REST API
-to process access events and trigger physical relays.
+Data de criação: 11/09/2025
+Última atualização: 18/02/2026
+Nome do projeto: Sistema de Controle de Acesso PGT 120
 
-⚠ This is a sanitized demo version.
-All sensitive data and internal infrastructure details were removed.
+Descrição geral:
+Firmware desenvolvido para integração direta entre o ESP32 e o ControlID IDFace,
+permitindo o acionamento automático do circuito do PGT 120 com base nos eventos
+de acesso registrados no dispositivo.
+
+Funcionamento:
+- Conecta ao ControlID via API Web (load_objects.fcgi).
+- Realiza login e mantém a sessão ativa automaticamente.
+- Consulta apenas o último evento de acesso utilizando filtros WHERE, ORDER e LIMIT,
+  garantindo alta performance e baixo consumo de memória.
+- Identifica eventos do tipo 7 (acesso liberado) e extrai o user_id correspondente.
+- Consulta os grupos do usuário para determinar quais relés devem ser acionados:
+    • Grupo 3 → Relé 1 (Departamento 1)
+    • Grupo 2 → Relé 2 (Departamento 2)
+- Aciona o(s) relé(s) correspondente(s) por 5 segundos.
+- Evita acionamentos duplicados armazenando o último event_id processado.
+- Mantém reconexão automática de Wi-Fi e sessão da API.
+
+Equipe responsável:
+Daniel Santos – Engenheiro de Software  
+Iago Nóbrega – Assistente de TI  
+Marco Antonio – Técnico em Eletrônica  
+Mateus Rodrigues – Técnico em Eletrônica  
+
+Objetivo:
+Garantir o controle de acesso seguro, rápido e confiável para o sistema PGT 120,
+acionando o hardware somente quando um colaborador autorizado é reconhecido
+pelo IDFace.
 */
 
 #include <WiFi.h>
@@ -13,28 +38,28 @@ All sensitive data and internal infrastructure details were removed.
 #include <ArduinoJson.h>
 
 // ===============================
-// VERSION CONTROL
+// CONTROLE DE VERSÃO
 // ===============================
 const char* firmwareVersion = "v1.0.0-demo";
 const char* firmwareBuild = "20260219";
 const char* firmwareAuthor = "Daniel Santos";
 
 // ===============================
-// NETWORK CONFIGURATION (DEMO)
+// CONFIGURAÇÕES DE REDE
 // ===============================
-const char* ssid = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
+const char* ssid = "wifi_ssid";
+const char* password = "senha_wifi";
 
-// Replace with your API host
-const char* api_host = "https://YOUR_API_HOST";
+// api_host para testes locais
+const char* api_host = "https://HOST_IP";
 
 String session = "";
 
 // ===============================
-// RELAY CONFIGURATION
+// CONTROLE DE RELÉS
 // ===============================
-const int relay1 = 19;
-const int relay2 = 20;
+const int rele1 = 19;
+const int rele2 = 20;
 
 unsigned long lastQueryTime = 0;
 const unsigned long queryInterval = 500;
@@ -46,7 +71,7 @@ bool relayActive = false;
 long lastProcessedEventId = 0;
 
 // ===============================
-// WIFI MANAGEMENT
+// GERENCIAMENTO DE SESSÃO E CONEXÃO
 // ===============================
 
 void ensureWiFi() {
@@ -63,11 +88,11 @@ void ensureWiFi() {
 }
 
 // ===============================
-// SESSION HANDLING
+// MANIPULAÇÃO DE SESSÃO E LOGIN
 // ===============================
 
 bool isSessionInvalid(String response) {
-  if (response.indexOf("Invalid session") != -1) {
+  if (response.indexOf("Sessão inválida") != -1) {
     session = "";
     delay(300);
     return true;
@@ -93,7 +118,7 @@ void login() {
   http.addHeader("Content-Type", "application/json");
 
   String payload =
-    "{\"login\":\"YOUR_USER\",\"password\":\"YOUR_PASSWORD\",\"device_id\":1}";
+    "{\"login\":\"usuario\",\"password\":\"senha\",\"device_id\":1}";
 
   int httpCode = http.POST(payload);
 
@@ -116,7 +141,7 @@ void login() {
 }
 
 // ===============================
-// EVENT QUERY (OPTIMIZED)
+// QUERY PARA O ÚLTIMO EVENTO DE ACESSO
 // ===============================
 
 bool getLatestEvent(int &user_id, long &event_id) {
@@ -180,12 +205,12 @@ bool getLatestEvent(int &user_id, long &event_id) {
 }
 
 // ===============================
-// RELAY CONTROL LOGIC
+// CONTROLE DE RELÉS
 // ===============================
 
 void triggerRelay() {
-  digitalWrite(relay1, HIGH);
-  digitalWrite(relay2, HIGH);
+  digitalWrite(rele1, HIGH);
+  digitalWrite(rele2, HIGH);
 
   relayActive = true;
   relayStartTime = millis();
@@ -198,18 +223,18 @@ void triggerRelay() {
 void setup() {
   Serial.begin(115200);
 
-  pinMode(relay1, OUTPUT);
-  pinMode(relay2, OUTPUT);
+  pinMode(rele1, OUTPUT);
+  pinMode(rele2, OUTPUT);
 
-  digitalWrite(relay1, LOW);
-  digitalWrite(relay2, LOW);
+  digitalWrite(rele1, LOW);
+  digitalWrite(rele2, LOW);
 
   WiFi.begin(ssid, password);
   login();
 }
 
 // ===============================
-// MAIN LOOP
+// LOOP PRINCIPAL
 // ===============================
 
 void loop() {
@@ -232,8 +257,8 @@ void loop() {
   }
 
   if (relayActive && (millis() - relayStartTime > relayActiveTime)) {
-    digitalWrite(relay1, LOW);
-    digitalWrite(relay2, LOW);
+    digitalWrite(rele1, LOW);
+    digitalWrite(rele2, LOW);
     relayActive = false;
   }
 }
