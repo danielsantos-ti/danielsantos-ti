@@ -1,5 +1,5 @@
 # 💼 Daniel Santos  
-## 🚀 Tech Lead | Engenheiro de Software| Infraestrutura Linux | Edge Computing | IA Aplicada & Engenharia de Dados
+## 🚀 Tech Lead | Engenheiro de Software | Gerenciamento de Produto | Gerenciamento de Projetos | Infraestrutura Linux | Edge Computing | IA Aplicada & Engenharia de Dados
 
 Profissional de tecnologia com atuação na arquitetura e integração de soluções que conectam **infraestrutura Linux, sistemas embarcados, inteligência artificial aplicada à indústria e engenharia de dados**.
 
@@ -9,7 +9,9 @@ Atualmente em formação em **Engenharia de Dados**, expandindo minha atuação 
 
 Tenho experiência em:
 
-- 🧭 Liderança técnica com metodologias ágeis (Scrum e Kanban)  
+- 🧭 Liderança técnica com metodologias ágeis (Scrum e Kanban)
+- 🚗 Gerenciamento de projetos e produtos no setor automotivo, com foco em pessoas, eficiência e em entregabilidade.
+- 📅 Planejamento, acompanhamento e automação de fluxos usando Monday.com, incluindo criação de dashboards, OKRs, KPIs e rituais de gestão
 - 🐧 Arquitetura e administração de infraestrutura Linux  
 - ⚙️ Desenvolvimento e integração de sistemas embarcados (ESP32, APIs e dispositivos industriais)  
 - 👁️‍🗨️ Visão computacional aplicada à inspeção industrial  
