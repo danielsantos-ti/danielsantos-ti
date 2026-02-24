@@ -1,5 +1,5 @@
 # 💼 Daniel Santos  
-## 🚀 Tech Lead | Infraestrutura Linux | Edge Computing | IA Aplicada & Engenharia de Dados
+## 🚀 Tech Lead | Engenheiro de Software| Infraestrutura Linux | Edge Computing | IA Aplicada & Engenharia de Dados
 
 Profissional de tecnologia com atuação na arquitetura e integração de soluções que conectam **infraestrutura Linux, sistemas embarcados, inteligência artificial aplicada à indústria e engenharia de dados**.
 
