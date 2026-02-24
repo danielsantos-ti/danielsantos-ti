@@ -61,20 +61,20 @@ String session = "";
 const int rele1 = 19;
 const int rele2 = 20;
 
-unsigned long lastQueryTime = 0;
-const unsigned long queryInterval = 500;
+unsigned long ultimaConsulta = 0;
+const unsigned long intervaloConsulta = 500;
 
-unsigned long relayStartTime = 0;
-const unsigned long relayActiveTime = 3000;
+unsigned long inicioRele = 0;
+const unsigned long tempoReleLigado = 3000;
 
-bool relayActive = false;
-long lastProcessedEventId = 0;
+bool ReleAtivo = false;
+long ultimoEventoProcessado = 0;
 
 // ===============================
 // GERENCIAMENTO DE SESSÃO E CONEXÃO
 // ===============================
 
-void ensureWiFi() {
+void garantirWiFi() {
   if (WiFi.status() != WL_CONNECTED) {
     WiFi.disconnect();
     WiFi.begin(ssid, password);
@@ -91,7 +91,7 @@ void ensureWiFi() {
 // MANIPULAÇÃO DE SESSÃO E LOGIN
 // ===============================
 
-bool isSessionInvalid(String response) {
+bool verificarSessaoInvalida(String response) {
   if (response.indexOf("Sessão inválida") != -1) {
     session = "";
     delay(300);
@@ -100,9 +100,9 @@ bool isSessionInvalid(String response) {
   return false;
 }
 
-bool handleHttpError(int httpCode) {
+bool tratarErroHTTP(int httpCode) {
   if (httpCode < 0) {
-    ensureWiFi();
+    garantirWiFi();
     session = "";
     delay(300);
     return true;
@@ -111,7 +111,7 @@ bool handleHttpError(int httpCode) {
 }
 
 void login() {
-  ensureWiFi();
+  garantirWiFi();
 
   HTTPClient http;
   http.begin(String(api_host) + "/login");
@@ -122,14 +122,14 @@ void login() {
 
   int httpCode = http.POST(payload);
 
-  if (handleHttpError(httpCode)) {
+  if (tratarErroHTTP(httpCode)) {
     http.end();
     return;
   }
 
   if (httpCode == 200) {
     String response = http.getString();
-    if (!isSessionInvalid(response)) {
+    if (!verificarSessaoInvalida(response)) {
       DynamicJsonDocument doc(512);
       if (!deserializeJson(doc, response)) {
         session = doc["session"].as<String>();
@@ -144,8 +144,8 @@ void login() {
 // QUERY PARA O ÚLTIMO EVENTO DE ACESSO
 // ===============================
 
-bool getLatestEvent(int &user_id, long &event_id) {
-  ensureWiFi();
+bool obterUltimoEvento(int &user_id, long &event_id) {
+  garantirWiFi();
   if (session == "") login();
 
   HTTPClient http;
@@ -158,7 +158,7 @@ bool getLatestEvent(int &user_id, long &event_id) {
       "\"where\":[{"
         "\"field\":\"id\","
         "\"operator\":\">\","
-        "\"value\":" + String(lastProcessedEventId) +
+        "\"value\":" + String(ultimoEventoProcessado) +
       "}],"
       "\"order\":[\"id\",\"descending\"],"
       "\"limit\":1"
@@ -166,7 +166,7 @@ bool getLatestEvent(int &user_id, long &event_id) {
 
   int httpCode = http.POST(payload);
 
-  if (handleHttpError(httpCode)) {
+  if (tratarErroHTTP(httpCode)) {
     http.end();
     return false;
   }
@@ -178,7 +178,7 @@ bool getLatestEvent(int &user_id, long &event_id) {
 
   String response = http.getString();
 
-  if (isSessionInvalid(response)) {
+  if (verificarSessaoInvalida(response)) {
     http.end();
     return false;
   }
@@ -212,8 +212,8 @@ void triggerRelay() {
   digitalWrite(rele1, HIGH);
   digitalWrite(rele2, HIGH);
 
-  relayActive = true;
-  relayStartTime = millis();
+  ReleAtivo = true;
+  inicioRele = millis();
 }
 
 // ===============================
@@ -238,27 +238,27 @@ void setup() {
 // ===============================
 
 void loop() {
-  ensureWiFi();
+  garantirWiFi();
 
-  unsigned long now = millis();
+  unsigned long agora = millis();
 
-  if (now - lastQueryTime > queryInterval) {
-    lastQueryTime = now;
+  if (agora - ultimaConsulta > intervaloConsulta) {
+    ultimaConsulta = agora;
 
     int user_id = -1;
     long event_id = -1;
 
-    if (getLatestEvent(user_id, event_id)) {
-      if (event_id > lastProcessedEventId) {
-        lastProcessedEventId = event_id;
+    if (obterUltimoEvento(user_id, event_id)) {
+      if (event_id > ultimoEventoProcessado) {
+        ultimoEventoProcessado = event_id;
         triggerRelay();
       }
     }
   }
 
-  if (relayActive && (millis() - relayStartTime > relayActiveTime)) {
+  if (ReleAtivo && (millis() - inicioRele > tempoReleLigado)) {
     digitalWrite(rele1, LOW);
     digitalWrite(rele2, LOW);
-    relayActive = false;
+    ReleAtivo = false;
   }
 }
