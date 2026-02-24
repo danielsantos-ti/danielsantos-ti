@@ -15,7 +15,6 @@ Tenho experiência em:
 - 👁️‍🗨️ Visão computacional aplicada à inspeção industrial  
 - 🤖 Inteligência Artificial aplicada à automação e tomada de decisão  
 - 📊 Análise de dados em ambiente produtivo com SQL (PostgreSQL)  
-- 🔐 Segurança aplicada a ambientes técnicos  
 - 🎓 Capacitação técnica e estruturação de trilhas práticas de aprendizado  
 
 Meu foco é transformar desafios operacionais complexos em soluções tecnológicas escaláveis, eficientes e sustentáveis.
@@ -24,7 +23,7 @@ Meu foco é transformar desafios operacionais complexos em soluções tecnológi
 
 ## 🎯 Proposta de Valor
 
-Atuo na interseção entre infraestrutura, edge computing, engenharia de dados e inteligência aplicada, estruturando soluções que:
+Atuo na interseção entre infraestrutura e edge computing, estruturando soluções que:
 
 - Reduzem falhas operacionais  
 - Automatizam processos críticos  
@@ -40,7 +39,7 @@ Atuo na interseção entre infraestrutura, edge computing, engenharia de dados e
 ### 🔧 Engenharia de Software Embarcado
 
 - Liderança técnica no desenvolvimento de produto embarcado integrando dispositivos industriais via firmware e API.
-- Integração entre dispositivos físicos e sistemas corporativos, garantindo rastreabilidade e confiabilidade operacional.
+- Integração entre equipamentos físicos e sistemas embarcados via API, garantindo rastreabilidade, confiabilidade e controle operacional.
 - Comunicação entre micro-controladores, equipamentos de reconhecimento facial, sistemas de controle de acesso e teste ESD.
 
 ### 👁️‍🗨️ Inteligência Artificial e Visão Computacional
@@ -53,11 +52,11 @@ Atuo na interseção entre infraestrutura, edge computing, engenharia de dados e
 
 - Planejamento e implantação de infraestrutura dedicada para IA (servidores, redes e GPUs) suportando ambientes de alto desempenho.
 - Estruturação de ambientes Linux seguros e escaláveis para execução contínua de serviços críticos.
-- Monitoramento e manutenção preventiva para garantir disponibilidade operacional.
+- Monitoramento e manutenção preventiva de servdidores, workstations e periféricos para garantir disponibilidade operacional.
 
 ### 📊 Análise de Dados em Produção
 
-- Execução de consultas SQL em PostgreSQL em ambiente produtivo de sistemas industriais.
+- Execução de consultas SQL em PostgreSQL em ambiente de produção de sistemas industriais.
 - Aplicação prática de cláusulas como `WHERE`, `IN`, `BETWEEN`, `GROUP BY`, `ORDER BY` e funções de agregação `COUNT()`.
 - Análise de registros operacionais para rastreabilidade, verificação de inconsistências e suporte à tomada de decisão.
 - Organização e estruturação de dados para facilitar auditoria e análise estratégica.
@@ -81,7 +80,7 @@ Projetar ambientes Linux escaláveis, seguros e preparados para alto desempenho 
 Conectar pipelines de visão computacional, dispositivos embarcados e sistemas industriais, garantindo fluxo de dados confiável.
 
 ### 3️⃣ Dados  
-Estruturar e analisar dados operacionais em ambiente de produção, utilizando SQL e boas práticas para suporte à decisão e rastreabilidade.
+Estruturar e analisar dados operacionais em ambiente de produção, utilizando consultas SQL e boas práticas para suporte à tomada de decisão e rastreabilidade.
 
 ### 4️⃣ Inteligência Aplicada  
 Implementar modelos de IA com foco em eficiência operacional, integração produtiva e melhoria contínua.
