@@ -74,7 +74,7 @@ long lastProcessedEventId = 0;
 // GERENCIAMENTO DE SESSÃO E CONEXÃO
 // ===============================
 
-void ensureWiFi() {
+void garantirWiFi() {
   if (WiFi.status() != WL_CONNECTED) {
     WiFi.disconnect();
     WiFi.begin(ssid, password);
@@ -102,7 +102,7 @@ bool isSessionInvalid(String response) {
 
 bool handleHttpError(int httpCode) {
   if (httpCode < 0) {
-    ensureWiFi();
+    garantirWiFi();
     session = "";
     delay(300);
     return true;
@@ -111,7 +111,7 @@ bool handleHttpError(int httpCode) {
 }
 
 void login() {
-  ensureWiFi();
+  garantirWiFi();
 
   HTTPClient http;
   http.begin(String(api_host) + "/login");
@@ -145,7 +145,7 @@ void login() {
 // ===============================
 
 bool getLatestEvent(int &user_id, long &event_id) {
-  ensureWiFi();
+  garantirWiFi();
   if (session == "") login();
 
   HTTPClient http;
@@ -238,7 +238,7 @@ void setup() {
 // ===============================
 
 void loop() {
-  ensureWiFi();
+  garantirWiFi();
 
   unsigned long now = millis();
 
